@@ -39,8 +39,6 @@ Users should be able to:
 
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Dami-Moore](https://www.frontendmentor.io/profile/Dami-Moore)
+- Twitter - [@Sam_damilola](https://www.twitter.com/Sam_damilola)
 
