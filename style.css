@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+main {
+    margin: 200px auto 100px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: 330px 310px;
+    gap: 20px;
+}
+
+.container {
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    padding: 5% 6.5% 3%;
+}
+
+.Identity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.name {
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.status {
+    font-weight: 400;
+    opacity: 50%;
+}
+
+.main-text {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.quote {
+    opacity: 70%;   
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+}
+
+
+.one {
+    background-image: url('images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 80% top;
+    background-color:  hsl(263, 55%, 52%);
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.two {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.two .main-text, .three .main-text {
+    font-size: 1.4rem;
+}
+
+#white {
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+    box-shadow: 5px 10px 20px hsl(219, 49%, 83%);
+}
+
+.Identity {
+    margin-bottom: 10px;
+}
+
+.main-text {
+    margin-bottom: 20px;
+}
+
+.two, .three {
+    padding: 10% 10% 0;
+}
+
+.three {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.four {
+    background-color:  hsl(219, 29%, 14%);
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+.five {
+    grid-area: 1 / 4 / 3 / 5;
+    padding-top: 15%;
+}
+
+.five .Identity {
+    margin-bottom: 20px;
+}
+
+.five .main-text {
+    margin-bottom: 20px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+  
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+@media only screen and (max-width: 1166px) {
+    main {
+        grid-template-columns: repeat(3, 270px);
+        grid-template-rows: 330px 310px 310px;
+    }
+
+    .five {
+        grid-area: 3 / 1 / 4 / 4;
+        padding-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        display: block;
+        padding-inline: 5%;
+        padding-top: 50px;
+        margin: 0;
+    }
+
+    .container {
+        border-radius: 10px;
+        padding: 10% 6.5% 10% 6.5%;
+        margin: 0 auto 30px;
+        font-size: 1.5rem;
+        text-align: left;
+        color: white;
+    }
+
+    .Identity {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    
+
+    .image {
+        border-radius: 50%;
+    }
+
+    .name {
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+
+    .status {
+        font-weight: 400;
+        opacity: 50%;
+    }
+
+    .main-text {
+        font-weight: 600;
+        margin-bottom: 20px;
+        line-height: 2rem;
+    }
+
+    .quote {
+        opacity: 70%;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+
+    .one {
+        background-image: url('images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: top right;
+        background-color:  hsl(263, 55%, 52%);
+    }
+
+    .two {
+        background-color: hsl(217, 19%, 35%);
+    }
+
+    #white {
+        background-color: white;
+        color: hsl(217, 19%, 35%);
+        box-shadow: 5px 10px 20px hsl(219, 49%, 83%);
+    }
+    
+    .four {
+        background-color:  hsl(219, 29%, 14%);
+    }
+
+}
